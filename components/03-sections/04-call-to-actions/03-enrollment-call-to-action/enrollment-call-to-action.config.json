@@ -1,0 +1,24 @@
+{
+	"title": "Enrollment Call To Action",
+    "name": "enrollment call to action",
+    "status": "exported",
+	"context": {
+		"preheading": "Become a",
+		"headline": "Roadrunner",
+		"cta-action-01": "Request Information",
+		"href-action-01": "https://utsa.edu",
+		"cta-action-02": "Visit Campus",
+		"cta-action-03": "Apply Now"
+	},
+	"default": "default",
+	"variants": [
+	{
+		"name": "default",
+		"label": "Default"
+	},
+	{
+		"name": "alt",
+		"label": "Alternate"
+	}
+	]
+}

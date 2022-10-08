@@ -1,0 +1,39 @@
+{
+	"title": "Blockquote",
+    "name": "blockquote",
+    "status": "exported",
+	"context": {
+		"text": "I am a blockquote."
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default",
+			"context": {
+				"text": "I am a blockquote that is centered."
+			}
+		},
+		{
+			"name": "centered",
+			"label": "Centered",
+			"context": {
+				"text": "I am a blockquote that is centered."
+			}
+		},
+		{
+			"name": "image",
+			"label": "Image",
+			"context": {
+				"text": "I am a blockquote with an image."
+			}
+		},
+		{
+			"name": "image-heading",
+			"label": "Image - Heading",
+			"context": {
+				"text": "I am a blockquote with an image."
+			}
+		}		
+	]
+}

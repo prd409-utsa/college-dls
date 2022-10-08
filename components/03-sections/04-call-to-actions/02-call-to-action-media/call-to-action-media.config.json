@@ -1,0 +1,117 @@
+{
+	"title": "Call To Action Media",
+	"name": "call to action media",
+	"status": "exported",
+	"context": {
+		"headline": "Medium Length Display Headline",
+		"content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor</p><ul><li>example list item</li></ul><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor</p>",
+		"image": "/college-dls/college/images/functional-1.png",
+		"actions": [{
+			"text": "First Action",
+			"url": "#"
+		},
+		{
+			"text": "Middle Action",
+			"url": "#"
+		},
+		{
+			"text": "Last Action",
+			"url": "#"
+		}
+	]
+	},
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "left",
+			"label": "Left"
+		},
+		{
+			"name": "2up",
+			"label": "Two Buttons"
+		},
+		{
+			"name": "2up-left",
+			"label": "Two Buttons - Left"
+		},
+		{
+			"name": "3up",
+			"label": "Three Buttons"
+		},
+		{
+			"name": "3up-left",
+			"label": "Three Buttons - Left"
+		},
+
+		{
+			"name": "blue",
+			"label": "Blue",
+			"context": {
+				"image": "/college-dls/college/images/functional-2.png"
+			}
+		},
+
+		{
+			"name": "blue-left",
+			"label": "Blue - Left",
+			"context": {
+				"image": "/college-dls/college/images/functional-2.png"
+			}
+		},
+
+		{
+			"name": "blue-2up",
+			"label": "Blue - Two Buttons",
+			"context": {
+				"image": "/college-dls/college/images/functional-2.png"
+			}
+		},
+		{
+			"name": "blue-3up",
+			"label": "Blue - Three Buttons",
+			"context": {
+				"image": "/college-dls/college/images/functional-2.png"
+			}
+		},
+
+		{
+			"name": "orange",
+			"label": "Orange",
+			"context": {
+				"image": "/college-dls/college/images/functional-3.png"
+			}
+		},
+
+		{
+			"name": "orange-left",
+			"label": "Orange - Left",
+			"context": {
+				"image": "/college-dls/college/images/functional-2.png"
+			}
+		},
+
+		{
+			"name": "orange-2up",
+			"label": "Orange - Two Buttons",
+			"context": {
+				"image": "/college-dls/college/images/functional-3.png"
+			}
+		},
+		{
+			"name": "orange-3up",
+			"label": "Orange - Three Buttons",
+			"context": {
+				"image": "/college-dls/college/images/functional-3.png"
+			}
+		},
+		{
+			"name": "video",
+			"label": "Video",
+			"context": {
+				"image": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+			}
+		}]
+	}

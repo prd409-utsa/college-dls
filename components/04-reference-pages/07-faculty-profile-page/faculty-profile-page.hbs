@@ -1,0 +1,144 @@
+<div id="body-wrapper">
+  <div id="skip-content"><a class="Skip-btn" href="#skipToContent">Skip To Main Content</a></div>
+  <!-- Header Section -->
+  <header id="header" class="main-header sticky-header">
+    {{ render '@global-header' }}
+    {{ render '@site-navigation' }}
+  </header>
+  <!-- Header Section End -->
+  <!-- Loader -->
+  <div id="cover">
+    <div class="loading-spin"><i class="fas fa-spinner"></i></div>
+  </div>
+  <!-- End Loader -->
+  <!-- Main Content Body -->
+  <main>
+    <!--Slider -->
+    <section class="slider-wrapper" id="main-slider-wrapper">
+      {{> @banner--slim}}
+      {{> @breadcrumb }}
+    </section>
+    <!-- End Slider -->
+
+    <section class="accounting-faculty-sec" id="skipToContent">
+      <div class="container">
+        <div class="accounting-information-header">
+          <h2>Juan Manuel Sanchez, Ph.D.</h2>
+          <h5>Associate Dean of Graduate Studies and Research
+            Ph.D. Program Director, Professor of Accounting
+          </h5>
+        </div>
+        <div class="accounting-faculty-img-content">
+          <div class="row">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+              <div class="accounting-faculty-img">
+                <img class="clip-mask-top-right" src="{{ path '/college-dls/college/images/faculty/Jonathon-Halbesleben.jpg'}}" alt="User Image">
+              </div>
+            </div>
+            <!-- Contact Details -->
+            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12">
+              <div class="accounting-faculty-content">
+                <div class="faculty-contact-list">
+                  <h2>Contact</h2>
+                  <ul class="list-unstyled">
+                    <li><span class="icon"><i class="fas fa-building" aria-hidden="true"></i></span> BB 4.01.18</li>
+                    <li><span class="icon"><i class="far fa-envelope" aria-hidden="true"></i></span> <a
+                        href="mailto:juan.manuel.sanchez@utsa.edu">juan.manuel.sanchez@utsa.edu</a></li>
+                    <li><span class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></span> <a
+                        href="tel:210.458.5572">210.458.5572</a></li>
+                    <li><span class="icon"><i class="far fa-file" aria-hidden="true"></i></span><a href="#">Download
+                        CV</a></li>
+                  </ul>
+                </div>
+                <div class="faculty-degree-list">
+                  <h5>Degree</h5>
+                  <ul>
+                    <li>Ph.D. The University of Texas at San Antonio</li>
+                    <li>M.S. St. Mary’s University</li>
+                    <li>MBA St. Mary’s University</li>
+                    <li>BBA St. Mary’s University</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--End Contact Details -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faculty-contact-sec">
+      <div class="container">
+        <div class="faculty-contact-header">
+          <h5>About</h5>
+          <p>Dr. Juan Manuel Sanchez obtained his Ph.D. in accounting from The University of Texas at San Antonio in
+            2006 after working for global firms including Deloitte (a global accounting firm) and SBC Communications
+            (now AT&amp;T). Dr. Sanchez has published in elite accounting, finance and multidisciplinary journals such
+            as The Accounting Review, Journal of Accounting Research, Journal of Financial Economics, Journal of
+            Business Ethics, Journal of Business Finance and Accounting, Accounting Horizons, Journal of Accounting and
+            Public Policy, Journal of Accounting, Auditing and Finance, and Journal of Information Systems.</p>
+          <p>His research is widely cited by academics and major media outlets including, The Wall Street Journal,
+            CFO.com, Accounting Today, Compliance Week, and Harvard Law School Forum on Corporate Governance and
+            Financial Regulation. According to BYU Author Rankings Sanchez’ research ranks him in the first (top) decile
+            among all accounting researchers. For more details about his research, please visit his SSRN Author Page.
+          </p>
+        </div>
+        <div class="faculty-research-interest">
+          <h5>Research Interests</h5>
+          <ul>
+            <li>Executive compensation</li>
+            <li>Corporate governance</li>
+            <li>Financial reporting issues</li>
+            <li>Accounting information systems</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+<!--BEGIN UTSA DISCOVERY CODE-->
+<section class="position-relative py-5">
+  <div class="container">
+    <div class="profile-details-component-div white">
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12" id="results">
+        <input type="hidden" value="000isg537" id="uuid" name="uuid" />
+
+        <h3 class="profile-details-section">UTSA Discovery: </h3>
+        <ul id="utsa-discovery-items" class="text-sm-left">
+                                  
+        </ul>        
+
+        <div class="d-none" id="awards">
+          <h3 class="profile-details-section">Awards</h3>
+
+        </div>
+
+        <div class="d-none" id="presentations">
+          <h3 class="profile-details-section">Presentations</h3>
+
+        </div>
+
+        <div class="d-none" id="grants">
+          <h3 class="profile-details-section">Grants</h3>
+
+        </div>
+
+        <div class="d-none" id="publications">
+          <h3 class="profile-details-section">Publications</h3>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!--END UTSA DISCOVERY CODE-->
+
+{{ render '@accordion'}}
+
+<!-- ENROLLMENT CTA -->
+{{ render '@enrollment-call-to-action' }}
+<!-- END CTA -->
+</main>
+<!-- End Main Content Body -->
+{{ render '@global-footer' }}
+</div>

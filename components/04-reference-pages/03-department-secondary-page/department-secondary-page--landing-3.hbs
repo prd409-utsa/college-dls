@@ -1,0 +1,94 @@
+<div id="body-wrapper">
+  <div id="skip-content"><a class="Skip-btn" href="#skipToContent">Skip To Main Content</a></div>
+  <!-- Header Section -->
+  <header id="header" class="main-header sticky-header">
+    {{ render '@global-header' }}
+    {{ render '@site-navigation' }}
+  </header>
+  <!-- Header Section End -->
+  <!-- Loader -->
+  <div id="cover">
+    <div class="loading-spin"><i class="fas fa-spinner"></i></div>
+  </div>
+  <!-- End Loader -->
+  <!-- Main Content Body -->
+  <main>
+    <!--Slider -->
+    <section class="slider-wrapper" id="main-slider-wrapper">
+      {{> @banner--slim}}
+      {{> @breadcrumb }}
+    </section>
+    <!-- End Slider -->
+
+    <section class="page-text-wrapper" id="skipToContent">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>Lorem Ipsum </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt urna a porta lobortis.
+              Aliquam
+              sit amet eros quam. Fusce venenatis ipsum non est porta porttitor. Curabitur aliquet mattis elit. Mauris
+              eget velit bibendum, auctor risus eu, elementum sem. Fusce magna neque, bibendum in efficitur ut,
+              elementum
+              non risus. Aenean vitae elementum risus. Donec ut sollicitudin nisl. Pellentesque vehicula eu neque ut
+              iaculis. Phasellus dignissim augue in lorem pharetra dictum. Fusce pellentesque ut ipsum quis malesuada.
+              Duis eu ipsum eget neque vehicula hendrerit id eu libero.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt urna a porta lobortis.
+              Aliquam
+              sit amet eros quam. Fusce venenatis ipsum non est porta porttitor. Curabitur aliquet mattis elit. Mauris
+              eget velit bibendum, auctor risus eu, elementum sem. Fusce magna neque, bibendum in efficitur ut,
+              elementum
+              non risus.</p>
+          </div>
+        </div>
+
+        <div class="row pt-3">
+          <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12">
+            <h2 class="h3 orange-a11y">Lorem Ipsum </h2>
+            <ul class="ul-list">
+              <li>Written and oral communication and presentation skills</li>
+              <li> Analytical thinking and ability to interpret financial statements</li>
+              <li>Interpersonal relations and teamwork</li>
+              <li>Technological skills including Microsoft Excel</li>
+              <li>Command of generally accepted accounting principles</li>
+            </ul>
+          </div>
+          <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12">
+            <h2 class="h3 orange-a11y">Lorem Ipsum </h2>
+            <ul class="ul-list">
+              <li>Auditing</li>
+              <li>Budget Analyst</li>
+              <li>Certified Public Accountant</li>
+              <li>Corporate Accountant</li>
+              <li>Comptroller/Controller</li>
+              <li>Forensic Accounting</li>
+              <li>International Accounting</li>
+              <li>Tax Manager</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="py-5">
+      <div class="container">
+        {{ render '@table--striped'}}
+      </div>
+    </section>
+
+    {{ render '@call-to-action-buttons--blue-2up'}}
+
+    {{ render '@call-to-action-media--left'}}
+
+    {{ render '@call-to-action-media'}}
+
+    {{ render '@blockquote--image-heading'}}
+
+    <!-- ENROLLMENT CTA -->
+    {{ render '@enrollment-call-to-action' }}
+    <!-- END CTA -->
+  </main>
+  <!-- End Main Content Body -->
+  {{ render '@global-footer' }}
+</div>

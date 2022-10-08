@@ -1,0 +1,81 @@
+{
+	"title": "Banner",
+    "status": "exported",
+	"context": {
+		"banner": {
+			"text": "I am a default banner."
+		}
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default",
+			"context": {
+				"banner": {
+					"text": "I am a default banner."
+				}
+			}
+		},
+		{
+			"name": "blue",
+			"label": "Blue",
+			"context": {
+				"banner": {
+					"text": "Department Of ",
+					"text-02": "Accounting"
+				}
+			}
+		},
+		{
+			"name": "orange",
+			"label": "Orange",
+			"context": {
+				"banner": {
+					"text": "Department Of ",
+					"text-02": "Technology"
+				}
+			}
+		},
+		{
+			"name": "stripe",
+			"label": "Striped",
+			"context": {
+				"banner": {
+					"text": "Department Of ",
+					"text-02": "Accounting"
+				}
+			}
+		},
+		{
+			"name": "rotating",
+			"label": "Rotating",
+			"context": {
+				"banner": {
+					"text": "Department Of ",
+					"text-02": "Accounting"
+				}
+			}
+		},
+		{
+			"name": "video",
+			"label": "Video",
+			"context": {
+				"banner": {
+					"text": "Department Of ",
+					"text-02": "Accounting"
+				}
+			}
+		},
+		{
+			"name": "slim",
+			"label": "Slim",
+			"context": {
+				"banner": {
+					"text": "Department Of ",
+					"text-02": "Accounting"
+				}
+			}
+		}
+	]
+}

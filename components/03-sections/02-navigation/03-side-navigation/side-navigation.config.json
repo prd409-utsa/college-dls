@@ -1,0 +1,24 @@
+{
+	"title": "Side Navigation",
+    "name": "side navigation",
+    "status": "exported",
+	"context": {
+		"menu-title": "Menu Title",
+		"text": "I am a side navigation."
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "heading",
+			"label": "Heading"
+		},
+		{
+			"name": "orientation",
+			"label": "Orientation Example Testing"
+		}
+	]
+}

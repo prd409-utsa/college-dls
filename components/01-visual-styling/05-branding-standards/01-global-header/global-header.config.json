@@ -1,0 +1,9 @@
+{
+	"title": "Global Header",
+    "name": "global header",
+    "status": "exported",
+	"context": {
+		"text": "I am a global footer."
+	},
+	"preview": "@global-header-preview"
+}

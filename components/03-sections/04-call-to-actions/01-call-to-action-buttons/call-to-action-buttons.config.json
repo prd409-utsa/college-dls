@@ -1,0 +1,45 @@
+{
+	"title": "Call To Action Buttons",
+	"name": "call to action buttons",
+	"status": "exported",
+	"context": {
+		"headline": "Medium Length Headline",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor",
+		"actions": [{
+				"text": "First Action",
+				"url": "#"
+			},
+			{
+				"text": "Last Action",
+				"url": "#"
+			}
+		]
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "grey",
+			"label": "Grey"
+		},
+		{
+			"name": "blue",
+			"label": "Blue"
+		},
+		{
+			"name": "orange",
+			"label": "Orange"
+		},
+		{
+			"name": "colors",
+			"label": "Multi Color"
+		},
+		{
+			"name": "2up",
+			"label": "Two Buttons"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"title": "Profile Info",
+    "name": "profile info",
+    "status": "exported",
+	"context": {
+		"name": "John Doe, Ph.D",
+		"department": "Department Name",
+		"title": "Associate Professor",
+		"office": "Office Location",
+		"phone": "210-123-4567",
+		"email": "jane.doe@utsa.edu",
+		"cv": "Download CV (PDF)",
+		"image": "/college-dls/college/images/faculty/Glenn-Martinez.jpg"
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		}
+	]
+}

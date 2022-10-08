@@ -1,0 +1,11 @@
+{
+	"title": "Misc Classes",
+    "name": "misc",
+    "status": "exported",
+	"context": {
+		"text": "I am a misc.",
+		"mask": {
+			"image": "/college-dls/college/images/content-highland-card.png"
+		}
+	}
+}

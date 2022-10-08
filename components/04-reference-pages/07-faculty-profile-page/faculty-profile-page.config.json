@@ -1,0 +1,15 @@
+{
+	"title": "Faculty Profile Page",
+    "name": "faculty profile page",
+    "status": "exported",
+	"context": {
+		"breadcrumb": {
+			"title": "Faculty Profile Page"
+		},
+		"banner": {
+			"text": "Faculty",
+			"text-02": "Profile Page"
+		}
+	},
+	"preview": "@faculty-profile-page-preview"
+}

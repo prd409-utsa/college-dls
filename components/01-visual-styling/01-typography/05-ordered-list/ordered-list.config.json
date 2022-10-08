@@ -1,0 +1,24 @@
+{
+    "name": "ordered list",
+    "status": "exported",
+	"context": {
+		"text": "I am an ordered list."
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default",
+			"context": {
+				"text": "I am a ordered list"
+			}
+		},
+		{
+			"name": "alt",
+			"label": "Alternative",
+			"context": {
+				"text": "I am an enhanced ordered list"
+			}
+		}		
+	]
+}

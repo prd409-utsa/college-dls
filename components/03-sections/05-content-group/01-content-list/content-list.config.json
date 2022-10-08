@@ -1,0 +1,16 @@
+{
+	"title": "Content List",
+    "name": "content list",
+    "status": "exported",
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "blue",
+			"label": "Blue"
+		}
+	]
+}

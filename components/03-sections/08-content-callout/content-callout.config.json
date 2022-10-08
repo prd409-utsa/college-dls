@@ -1,0 +1,40 @@
+{
+	"title": "Content Callout",
+	"name": "content-callout",
+	"status": "exported",
+	"context": {
+		"headline": "Medium Length Display Headline",
+		"subhead": "Medium Length Subheader",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor.elit."
+	},
+	"default": "default",
+	"variants": [{
+			"name": "default",
+			"label": "Default",
+			"context": {
+				"headline": "Medium Length Display Headline",
+				"subhead": "Medium Length Subheader",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor.elit."
+			}
+		},
+
+		{
+			"name": "blue",
+			"label": "Blue",
+			"context": {
+				"headline": "Medium Length Display Headline",
+				"subhead": "Medium Length Subheader",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor.elit."
+			}
+		},
+		{
+			"name": "orange",
+			"label": "Orange",
+			"context": {
+				"headline": "Medium Length Display Headline",
+				"subhead": "Medium Length Subheader",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin tempor.elit."
+			}
+		}
+	]
+}

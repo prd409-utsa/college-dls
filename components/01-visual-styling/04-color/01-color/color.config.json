@@ -1,0 +1,69 @@
+{
+    "name": "color",
+	"title": "Color",
+    "status": "exported",
+	"context": {
+		"foreground": [
+			{
+				"hex": "#0C2340",
+				"name": "Blue",
+				"class": ".blue"
+			},
+			{
+				"hex": "#F15A22",
+				"name": "Orange",
+				"class": ".orange"
+			},
+			{
+				"hex": "#d3430d",
+				"name":  "Orange (Accessible)",
+				"class": ".orange-a11y"
+			},
+			{
+				"hex": "#FFFFFF",
+				"name": "White",
+				"class": ".white"
+			},
+			{
+				"hex": "#F6F6F6",
+				"name": "White B",
+				"class": ".white-b"
+			},
+			{
+				"hex": "#DBDEE3",
+				"name": "Grey #01",
+				"class": ".grey"
+			},
+			{
+				"hex": "#B4B8BC",
+				"name": "Grey #02",
+				"class": ".grey-b"
+			},
+			{
+				"hex": "#949494",
+				"name": "Grey #03",
+				"class": ".grey-c"
+			},
+			{
+				"hex": "#606060",
+				"name": "Grey #04",
+				"class": ".grey-d"
+			},
+			{
+				"hex": "#232323",
+				"name": "Grey #05",
+				"class": ".grey-e"
+			},
+			{
+				"hex": "#000000",
+				"name": "Black",
+				"class": ".black"
+			},
+			{
+				"hex": "#025EFC",
+				"name": "Blue Highlight (UI)",
+				"class": ".blue-highlight"
+			}
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"title": "Contact Callout",
+	"name": "contact callout",
+	"status": "exported",
+	"context": {
+		"firstName": "Jane",
+		"lastName": "Doe, Ph.D.",
+		"department": "Department Name",
+		"title": "Associate Professor",
+		"email": "jane.doe@utsa.edu",
+		"image": "/college-dls/college/images/account-user.png"
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "small",
+			"label": "Small"
+		}
+	]
+}

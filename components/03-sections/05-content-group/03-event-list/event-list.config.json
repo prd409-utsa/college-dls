@@ -1,0 +1,25 @@
+{
+	"title": "Event List",
+	"name": "event list",
+    "status": "wip",
+	"context": {
+		"text": "I am an event list."
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default",
+			"context": {
+				"text": "I am a default event list."
+			}
+		},
+		{
+			"name": "image",
+			"label": "Image",
+			"context": {
+				"text": "I am an event list with an image."
+			}
+		}
+	]
+}

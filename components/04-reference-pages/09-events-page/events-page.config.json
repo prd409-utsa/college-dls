@@ -1,0 +1,14 @@
+{
+	"title": "Events Page",
+    "name": "events page",
+    "status": "wip",
+	"context": {
+		"breadcrumb": {
+			"title": "Event Page"
+		},
+		"banner": {
+			"text": "Event",
+			"text-02": "Page"
+		}
+	}
+}

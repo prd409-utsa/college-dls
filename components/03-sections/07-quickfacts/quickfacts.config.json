@@ -1,0 +1,51 @@
+{
+	"title": "Quickfacts",
+	"label": "Quickfacts",
+	"name": "Quickfacts",
+    "status": "exported",
+	"context": {
+		"items": [
+			{ "headline": "130+", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+			{ "headline": "9M", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+			{ "headline": "#2", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+			{ "headline": "3,834", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+			{ "headline": "280", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit" },
+			{ "headline": "79%", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit" }
+		]
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "2up",
+			"label": "2up"
+		},
+		{
+			"name": "3up",
+			"label": "3up"
+		},
+		{
+			"name": "4up",
+			"label": "4up"
+		},
+		{
+			"name": "6up",
+			"label": "6up"
+		},
+		{
+			"name": "blue",
+			"label": "Blue"
+		},
+		{
+			"name": "grey",
+			"label": "Grey with Headline"
+		},
+		{
+			"name": "orange",
+			"label": "Orange"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"title": "Action Group",
+    "name": "action group",
+    "status": "exported",
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		}
+	]
+}

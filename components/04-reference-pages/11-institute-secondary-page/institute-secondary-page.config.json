@@ -1,0 +1,14 @@
+{
+	"title": "Institute Secondary Page",
+    "name": "institute secondary page",
+    "status": "exported",
+	"context": {
+		"breadcrumb": {
+			"title": "Institute Secondary Page"
+		},
+		"banner": {
+			"text": "Institute",
+			"text-02": "Secondary Page"
+		}
+	}
+}

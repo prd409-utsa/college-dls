@@ -1,0 +1,8 @@
+{
+	"title": "Type",
+    "name": "type",
+    "status": "exported",
+	"context": {
+		"text": "I am a type example."
+	}
+}

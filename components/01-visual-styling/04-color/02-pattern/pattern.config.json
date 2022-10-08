@@ -1,0 +1,109 @@
+{
+    "name": "background patterns",
+    "status": "exported",
+	"context": {
+		"background":[
+			{
+				"hex": "#0C2340",
+				"name": "Blue Background",
+				"class": "blue-bg",
+				"className": ".blue-bg"
+			},
+			{
+				"name": "Blue #2 Background",
+				"class": "blue-b-bg",
+				"className": ".blue-b-bg"
+			},
+			{
+				"name": "Blue #3 Background",
+				"class": "blue-c-bg",
+				"className": ".blue-c-bg"
+			},
+			{
+				"hex": "#FFFFFF",
+				"name": "White Background",
+				"class": "white-bg",
+				"className": ".white-bg"
+			},
+			{
+				"hex": "#F6F6F6",
+				"name": "White B Background",
+				"class": "white-b-bg",
+				"className": ".white-b-bg"
+			},
+			{
+				"hex": "#F15A22",
+				"name": "Orange Background",
+				"class": "orange-bg",
+				"className": ".orange-bg"
+			},
+			{
+				"hex": "#D3430D",
+				"name": "Orange (Accessible) Background",
+				"class": "orange-a11y-bg",
+				"className": ".orange-a11y-bg"
+
+			},
+			{
+				"hex": "#DBDEE3",
+				"name": "Grey #01 Background",
+				"class": "grey-bg",
+				"className": ".grey-bg"
+
+			},
+			{
+				"hex": "#B4B8BC",
+				"name": "Grey #02 Background",
+				"class": "grey-b-bg",
+				"className": ".grey-b-bg"
+			},
+			{
+				"hex": "#949494",
+				"name": "Grey #03 Background",
+				"class": "grey-c-bg",
+				"className": ".grey-c-bg"
+			},
+			{
+				"hex": "#606060",
+				"name": "Grey #04 Background",
+				"class": "grey-d-bg",
+				"className": ".grey-d-bg"
+			},
+			{
+				"hex": "#232323",
+				"name": "Grey #05 Background",
+				"class": "grey-e-bg",
+				"className": ".grey-e-bg"
+			}
+		],
+		"pattern": [
+			{
+				"name": "UTSA Blue with Striped Pattern Background",
+				"class": "blue-bg stripe-bg",
+				"className": ".blue-bg .stripe-bg"
+			},
+			{
+				"name": "UTSA Orange (Accessible) with Striped Background",
+				"class": "orange-a11y-bg stripe-bg",
+				"className": ".orange-a11y-bg .stripe-bg"
+			},
+
+			{
+				"name": "Blue #2 with Striped Pattern Background",
+				"class": "blue-b-bg stripe-bg",
+				"className": ".blue-b-bg.stripe-bg"
+			},
+
+			{
+				"name": "Blue #3 with Striped Pattern Background",
+				"class": "blue-c-bg stripe-bg",
+				"className": ".blue-c-bg.stripe-bg"
+			},
+			{
+				"name": "Grey #2 with Striped Pattern Background",
+				"class": "grey-b-bg stripe-bg",
+				"className": ".grey-b-bg.stripe-bg"
+			}
+		]
+	}
+}

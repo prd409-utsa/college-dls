@@ -1,0 +1,30 @@
+{
+	"title": "Gallery Call To Action",
+	"label": "Gallery Call To Action",
+    "name": "gallery call to action",
+    "status": "wip",
+	"context": {
+		"image": "/college-dls/college/images/modal.png",
+		"headline": "Medium Length Headline",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus felis. In sollicitudin",
+		"slide": [
+			{
+				"heading": "Lorem ipsum dolor sit amet, consectetur elit",
+				"text": "Lorem ipsum dolor sit amet, consectetur elit",
+				"image": "/college-dls/college/images/slider-img.png"
+			},
+			{
+				"heading": "Lorem ipsum dolor sit amet, consectetur elit",
+				"text": "Lorem ipsum dolor sit amet, consectetur elit",
+				"image": "/college-dls/college/images/slider-bg.png"
+			}
+		]
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "default"
+		}
+	]
+}

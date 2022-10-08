@@ -1,0 +1,20 @@
+{
+	"title": "Site Navigation",
+    "name": "site navigation",
+    "status": "exported",
+	"context": {
+		"text": "I am a site navigation."
+	},
+	"preview": "@navigation-preview",
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "admissions",
+			"label": "Admissions"
+		}
+	]
+}

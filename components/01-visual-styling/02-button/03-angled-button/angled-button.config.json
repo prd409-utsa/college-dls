@@ -1,0 +1,26 @@
+{
+    "name": "angled button",
+	"title": "Angled Button",
+    "status": "exported",
+	"context": {
+		"url": "#",
+		"text": "Action"
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "blue",
+			"label": "Blue"
+		},
+		{
+			"name": "large",
+			"label": "Large",
+			"preview": "@component-preview"
+		}
+	],
+	"preview": "@button-preview"
+}

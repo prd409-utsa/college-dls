@@ -1,0 +1,17 @@
+{
+	"title": "Breadcrumb",
+    "name": "breadcrumb",
+    "status": "exported",
+	"context": {
+		"breadcrumb": {
+			"title": "Department of Accounting"
+		}
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"title": "Headline",
+    "name": "headline",
+    "status": "exported",
+	"context": {
+		"text": "I am a headline."
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default",
+			"context": {
+				"text": "I am a default headline"
+			}
+		},
+		{
+			"name": "alt",
+			"label": "Alternative",
+			"context": {
+				"text": "I am an alternative headline"
+			}
+		}
+	]
+}

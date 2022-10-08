@@ -1,0 +1,76 @@
+{
+	"title": "Program Listing Page",
+	"name": "program listing page",
+	"status": "exported",
+	"context": {
+		"breadcrumb": {
+			"title": "Programs & Majors"
+		},
+		"banner": {
+			"text": "Programs & ",
+			"text-02": "Majors"
+		},
+		"cards": [
+			{
+				"content-card": {
+					"heading": "B.S. Artificial Intelligence ",
+					"image": "/college-dls/college/images/business-analytics.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "M.S. Computer Science - Data Science Concentration ",
+					"image": "/college-dls/college/images/cyber-security.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Finance",
+					"image": "/college-dls/college/images/economics.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Information Systems",
+					"image": "/college-dls/college/images/finance.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Management",
+					"image": "/college-dls/college/images/information-systems.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Management Science",
+					"image": "/college-dls/college/images/management.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Management Science",
+					"image": "/college-dls/college/images/management-science.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Marketing",
+					"image": "/college-dls/college/images/marketing.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Real Estate Finance",
+					"image": "/college-dls/college/images/real-estate-finance.png"
+				}
+			},
+			{
+				"content-card": {
+					"heading": "Statistics",
+					"image": "/college-dls/college/images/statistics.png"
+				}
+			}
+		]
+	}
+}

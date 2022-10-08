@@ -1,0 +1,30 @@
+{
+	"title": "Department Secondary Page",
+    "name": "department secondary page",
+    "status": "exported",
+	"context": {
+		"breadcrumb": {
+			"title": "Department Secondary Page"
+		},
+		"banner": {
+			"text": "Department",
+			"text-02": "Secondary Page"
+		}
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "landing-2",
+			"label": "Variation 2"
+		},
+		{
+			"name": "landing-3",
+			"label": "Variation 3 - no sidemenu"
+		}
+
+	]
+}

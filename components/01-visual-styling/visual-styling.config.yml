@@ -1,1 +1,4 @@
+title: 'Visual Styling'
+order: 1
 root: true
+preview: '@token-preview'

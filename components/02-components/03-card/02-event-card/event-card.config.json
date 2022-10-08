@@ -1,0 +1,34 @@
+{
+	"title": "Event Card",
+    "name": "event card",
+    "status": "wip",
+	"context": {
+		"month": "APR - MAY",
+		"date": "29-3",
+		"year": "2021",
+		"image": "/college-dls/college/images/Event-Listing-1.png",
+		"headline": "Lorem ipsum dolor sit amet",
+		"subheading": "6-8 PM, Location Name, Main Campus",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Susp endisse vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Susp endisse vel. ",
+		"url": "#"
+	},
+	"default": "default",
+	"variants": [
+		{
+			"name": "default",
+			"label": "Default"
+		},
+		{
+			"name": "blue",
+			"label": "Blue"
+		},
+		{
+			"name": "horizontal",
+			"label": "Horizontal"
+		},
+		{
+			"name": "horizontal-image",
+			"label": "Horizontal with Image"
+		}
+	]
+}
